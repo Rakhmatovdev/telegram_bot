@@ -1,0 +1,35 @@
+{
+  "name": "telegram-bot",
+  "version": "1.0.0",
+  "description": "My first telegram bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rakhmatovdev/telegram_bot.git"
+  },
+  "keywords": [
+    "bot",
+    "send",
+    "photo",
+    "telegram",
+    "sticer",
+    "audiyo",
+    "video"
+  ],
+  "author": "Jasur",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rakhmatovdev/telegram_bot/issues"
+  },
+  "homepage": "https://github.com/Rakhmatovdev/telegram_bot#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.1"
+  },
+  "dependencies": {
+    "node-telegram-bot-api": "^0.66.0"
+  }
+}
